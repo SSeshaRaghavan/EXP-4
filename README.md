@@ -21,33 +21,39 @@ During the positive half cycle of the secondary voltage, diodes      and      ar
 and diode     . During the negative half cycle,      and      are forward biased and diodes      and      are reverse biased. Therefore, current flows through the secondary winding, diode     . Load resistor       During both the half cycles, the current flows through the load resistor in the same direction. Peak value of the output voltage is less than the peak value of the input voltage by 1.2V due to the voltage drop across two diodes. The ripple factor of the bridge rectifier is the same as that of full wave rectifier.
 All rectifier outputs contain considerable amount of ripple in addition to the DC component. In order to avoid AC components, a filter is connected at the output of the rectifier.
 
-Capacitor input filter, choke input filter, RC, CRC, LC, and CLC filters are the usually used filters. Capacitor input filter is the simplest and cheapest. A high value capacitor C is connected in shunt with the load resistor     . Capacitor charges to peak voltage      when the half cycle appears at the output. After the peak value is passed, the capacitor discharges through the load resistor slowly since the diode is reverse biased by the capacitor voltage. Before the capacitor voltage drops substantially, next output cycle arrives and the capacitor recharges to peak.
+Capacitor input filter, choke input filter, RC, CRC, LC, and CLC filters are the usually used filters. Capacitor input filter is the simplest and cheapest. A high value capacitor C is connected in shunt with the load resistor    . The capacitor charges to peak voltage      when the half cycle appears at the output. After the peak value is passed, the capacitor discharges through the load resistor slowly since the diode is reverse-biased by the capacitor voltage. Before the capacitor voltage drops substantially, the next output cycle arrives and the capacitor recharges to peak.
 
 Rectifier Efficiency
 
-Rectifier efficiency is defined as the ratio of DC output power to the input power from the AC supply. Even with ideal rectifiers with no losses, the efficiency is less than 100% because some of the output power is AC power rather than DC which manifests as ripple superimposed on the DC waveform.
+Rectifier efficiency is defined as the ratio of DC output power to the input power from the AC supply. Even with ideal rectifiers with no losses, the efficiency is less than 100% because some of the output power is AC power rather than DC, which manifests as ripple superimposed on the DC waveform.
 PROCEDURE:
 
-1.   Wire up the half wave rectifier circuit without capacitor after testing all the components.
+1.   Wire up the half-wave rectifier circuit without a capacitor after testing all the components.
 
 2.   Switch on the main supply. Observe the transformer secondary voltage waveform and output voltage waveform across the load resistor, simultaneously on the CRO screen. Note down       and calculate
-3.   Connect the capacitor filter and observe the waveforms. Note down and calculate ripple factor, rectifier efficiency and %regulation using the expressions. Repeat for different capacitor values.
-4.   Repeat the above steps for full wave and bridge rectifiers.
+3.   Connect the capacitor filter and observe the waveforms. Note down and calculate ripple factor, rectifier efficiency, and %regulation using the expressions. Repeat for different capacitor values.
+4.   Repeat the above steps for full-wave and bridge rectifiers.
 
 CIRCUIT DIAGRAMS
+![IMG-20251117-WA0004](https://github.com/user-attachments/assets/2bc66b0a-a551-467c-8022-7d10c5a2b404)
 
-Half wave rectifier with filter:
+![IMG-20251117-WA0003](https://github.com/user-attachments/assets/b8feb190-7a09-4aef-9876-99e45ff683c0)
 
-Bridge rectifier with filter:
+![IMG-20251117-WA0007](https://github.com/user-attachments/assets/1363908b-b1fc-45ec-a93a-10ea521252db)
 
-TABULAR COLUMN
-Rectifier without filter
-TABULAR COLUMN
-Rectifier with filter
+![IMG-20251117-WA0006](https://github.com/user-attachments/assets/44ab3fba-02b3-4087-a529-54ee73472a1b)
+
+![IMG-20251117-WA0005](https://github.com/user-attachments/assets/72cf32ed-ba0d-4a0f-96ee-9fc72ea23b8d)
 
 WAVEFORM:
+<img width="760" height="580" alt="Screenshot 2025-10-27 085102" src="https://github.com/user-attachments/assets/9424e5e3-c8ec-4ea6-9484-007dede54379" />
 
+<img width="1156" height="794" alt="image" src="https://github.com/user-attachments/assets/0e10db2f-c6da-4481-8a5b-710326c23efd" />
+
+<img width="1421" height="884" alt="image" src="https://github.com/user-attachments/assets/781c0581-b6cd-41b0-9f11-efb5a3c961ec" />
+
+<img width="1369" height="887" alt="image" src="https://github.com/user-attachments/assets/e472beb9-e3a9-4b94-805b-8e75a796ab31" />
 
 RESULT:
 
-Input and Output waveforms of a half and full bridge-wave with /without filter are observed and plotted.
+Input and Output waveforms of a half and full bridge-wave with /without a filter are observed and plotted.
